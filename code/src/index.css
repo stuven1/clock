@@ -1,5 +1,62 @@
 body {
+  background: white;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  text-align: center;
+  line-height: 25px; /* the space between */
+}
+
+h1 {
+  color: #1d1d1d;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  text-transform: uppercase; /*CAPSLOCK*/
+  }
+
+h4 {
+  color: #1d1d1d;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-transform: uppercase; /*CAPSLOCK*/
+}
+
+p {
+  color: #1d1d1d;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  text-transform: uppercase; /*CAPSLOCK*/
+}
+
+.button-1{
+  background: Tomato;
+  border: 2px solid #1d1d1d;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 2px;
+  padding: 3px, 3px;
+  text-transform: uppercase; /*CAPSLOCK*/
+}
+
+.button-2{
+  background: MediumSeaGreen;
+  border: 2px solid #1d1d1d;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 5px;
+  padding: 5px, 5px;
+  text-transform: uppercase; /*CAPSLOCK*/
+}
+
+img{
+margin: 5px;
+margin-top: 40px;
 }
